@@ -13,6 +13,8 @@ public class Task {
     private String title;
     private String description;
     private LocalDate dueDate;
+    private String priority;
+
 
     // Getters y Setters
     public Long getId() {
@@ -45,5 +47,12 @@ public class Task {
 
     public void setDueDate(LocalDate dueDate) {
         this.dueDate = dueDate;
+    }
+
+    public String getPriority() {
+        return priority;
+    }
+    public void setPriority(String priority) {
+        this.priority = priority;
     }
 }
